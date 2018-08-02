@@ -1,0 +1,117 @@
+/* stylizacja footera */
+.footer
+{
+	background-color:#1d1e22;
+	min-height:200px;
+	margin-top:8vw;
+	padding:50px;
+}
+
+.footer-section
+{
+	color:#25abb7;
+	margin-bottom:10px;
+}
+
+.footer-section-follow
+{
+	color:#25abb7;
+	margin-bottom:25px;
+}
+
+.footer-option
+{
+	padding:5px 0;
+	color:#aba;
+	text-decoration:none;
+}
+
+.footer-option a
+{
+	color:#aba;
+	text-decoration:none;
+	transition:.4s;
+}
+
+/* cyk szybki hover, bo mi sie nie bedzie go chcialo szukac na dole */
+.footer-option a:hover
+{
+	color:#2587b7;
+}
+
+.footer-icon
+{
+	color:#aba;
+	border:solid 1px #aba;
+	border-radius:50%;
+	padding:15px 20px;
+	margin-right:5px;
+	text-decoration:none;
+	transition:.4s;
+}
+
+/* i cyk drugi hoverek */
+.footer-icon:hover
+{
+	border-color:#2587b7;
+}
+
+/* tworzenie gridu */
+.footer-grid
+{
+	display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 4fr;
+    grid-template-rows: 1fr 1fr;
+	height:270px;
+	grid-gap:2em;
+}
+
+/* stylizacja elementow gridu */
+
+.footer-grid f11
+{
+	grid-row:1;
+	grid-column:1;
+}
+
+.footer-grid f12
+{
+	grid-row:1;
+	grid-column:2;
+}
+
+.footer-grid f13
+{
+	grid-row:1;
+	grid-column:3;
+}
+
+.footer-grid f14
+{
+	grid-row:1;
+	grid-column:4;
+}
+
+.footer-grid f15
+{
+	grid-row:1;
+	grid-column:5;
+}
+
+.footer-grid f21
+{
+	grid-row:2;
+	grid-column:1;
+}
+
+.footer-grid f22
+{
+	grid-row:2;
+	grid-column:2;
+}
+
+.footer-copy
+{
+	margin-top:20px;
+	color:#aba;
+}

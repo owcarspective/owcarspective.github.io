@@ -1,0 +1,55 @@
+/* stylizacja elementów formularza demo */
+.getstarted-header h1
+{
+	text-align:center;
+	font-size:38px;
+	font-weight:400;
+}
+
+.getstarted-header p
+{
+	text-align:center;
+}
+
+.getstarted-form
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	text-align:center;
+}
+
+.input-email
+{
+    background-color:transparent;
+    color:#ababab;
+	display:block;
+    width:40vw;
+    height:38px;
+    font-size:14px;
+    line-height:1.42857143;
+    vertical-align:middle;
+	border:none;
+    border-bottom:1px solid #cccccc;
+	vertical-align:middle;
+	margin-bottom:20px;
+}
+
+.input-submit
+{
+	padding:20px 30px;
+    border-radius:50px;
+    background-color:#25abb7;
+	color:white;
+    font-size:12px;
+	border:none;
+	transition:.4s;
+}
+
+
+/* animacja na hover */
+.input-submit:hover
+{
+	cursor:pointer;
+	box-shadow:0 4px 15px -5px #000;
+}

@@ -1,0 +1,126 @@
+/* stylizacja header "BLOG + twitter button" */
+.blog-header
+{
+	padding-bottom:50px;
+}
+
+.blog-header h2
+{
+	font-weight:400;
+	font-size:36px;
+	float:left;
+	margin:0;
+}
+
+.blog-header .twitter
+{
+	float:right;
+	padding:5px;
+	width:136px;
+	font-size:12px;
+	text-decoration:none;
+	text-align:center;
+	background-color:#1b95e0;
+	color:white;
+	border:none;
+	border-radius:5px;
+}
+
+/* stylizacja bloczków z podglądem postów */
+.blog-short
+{
+	background-color:white;
+	min-height:200px;
+	clear:both;
+	margin:70px 0;
+	margin-top:120px;
+	padding:0 5vw;
+	padding-bottom:2vw;
+}
+
+.blog-image
+{
+	width:6vw;
+	height:6vw;
+	border-radius:50%;
+	position:relative;
+	right:-26.5vw;
+	top:-3vw;
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.blog-role
+{
+	float:left;
+	font-weight:700;
+	text-decoration:none;
+	color:rgba(0, 41, 154, 0.6);
+	position:relative;
+	top:-3vw;
+}
+
+.blog-category
+{
+	float:right;
+	font-weight:700;
+	text-decoration:none;
+	color:rgba(0, 0, 0, 0.31);
+	position:relative;
+	top:-3vw;
+}
+
+.blog-short h3
+{
+	clear:both;
+	text-align:center;
+	font-size:24px;
+}
+
+.blog-author
+{
+	position:relative;
+    left:-51%;
+    float:right;
+    color:#25abb7;
+    font-size:16px;
+    font-weight:700;
+    text-align:center;
+    text-decoration:none;
+}
+
+.blog-date
+{
+	position:relative;
+    right:-51%;
+    float:left;
+    color:rgba(0, 0, 0, .31);
+    font-size:16px;
+    font-weight:700;
+}
+
+.blog-line
+{
+	clear:both;
+	border-bottom:solid 2px #25abb7;
+	padding:10px 0;
+	margin:0 20vw;
+}
+
+.blog-readmore
+{
+	font-family: 'Lato', sans-serif;
+	color:#25abb7;
+	text-decoration:none;
+	padding:10px;
+	border-radius:50px;
+	transition:.4s;
+}
+
+/* animacja on hover */
+.blog-readmore:hover
+{
+	color:white;
+	background-color:#25abb7;
+}

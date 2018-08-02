@@ -1,0 +1,17 @@
+body
+{
+	background-color:#f3f4fa;
+	font-family: 'Lato', sans-serif;
+	margin:0;
+}
+
+.section
+{
+	padding:50px 0;
+}
+
+.container
+{
+	margin:0 15vw;
+	min-height:100px;
+}
