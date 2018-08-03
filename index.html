@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="css/blog.css"/>
 <link rel="stylesheet" href="css/getstarted.css"/>
 <link rel="stylesheet" href="css/footer.css"/>
-<script src="script.js"></script>
+<link rel="stylesheet" href="css/responsive.css"/>
+<script src="js/navigation.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -18,14 +19,15 @@
 <body>
 	<div class="navbar">
 		<a href="#"><img src="img/voucherify_logo2.png" style="width:100px"/></a>
-		<nav role="navigation" class="nav-menu">
+		<nav role="navigation" class="nav-menu" id="navmenu">
 			<a href="#" class="nav-link">Features</a>
-			<a href="#" class="nav-link">Product</a>
-			<a href="#" class="nav-link">Developers</a>
+			<a href="#" class="nav-link">Product <i class="fa fa-angle-down"></i></a>
+			<a href="#" class="nav-link">Developers <i class="fa fa-angle-down"></i></a>
 			<a href="#" class="nav-link">Company</a>
 			<a href="#" class="nav-link">Pricing</a>
 			<a href="#" class="nav-button-login">Login</a>
 			<a href="#" class="nav-button-try">Try for free</a>
+			<a href="javascript:void(0);" class="nav-dropicon" onclick="navDropdown()"><i class="fa fa-bars"></i></a>
 		</nav>
 	</div>
 	
@@ -45,7 +47,7 @@
 				<div class="blog-date">DatePlaceholder</div>
 				<div class="blog-line"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed viverra purus. Nullam laoreet ligula nec mi placerat, ut eleifend enim aliquet. Morbi facilisis placerat metus, consequat facilisis diam consectetur id. Maecenas in congue diam. Quisque quis mattis massa, sit amet rutrum dolor. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin id dui iaculis, suscipit nulla vitae, facilisis ligula. Sed eu pulvinar erat.</p>
-				<a class="blog-readmore" href="#">Read more ></a>
+				<a class="blog-readmore" href="#">Read more <i class="fa fa-angle-right"></i></a>
 			</div>
 			
 			<div class="blog-short">
@@ -57,7 +59,7 @@
 				<div class="blog-date">DatePlaceholder</div>
 				<div class="blog-line"></div>
 				<p>Cras ac cursus odio, sed posuere urna. Maecenas sed nisl nibh. Donec nec vulputate lacus, et fringilla felis. Maecenas tempus eros vel sem aliquet vehicula. Aliquam ac bibendum leo. Nam eget viverra nibh. Sed a semper ipsum. Pellentesque et ultrices felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mauris massa, lacinia et lacus eu, pharetra aliquam erat.</p>
-				<a class="blog-readmore" href="#">Read more ></a>
+				<a class="blog-readmore" href="#">Read more <i class="fa fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -118,7 +120,9 @@
 				<div class="f21">
 					<div class="footer-copy"><img src="img/voucherify_logo3.png"/></div>
 				</div>
-				<div class="f22"><div class="footer-copy">&copy; rspective 2018</div></div>
+				<div class="f22">
+					<div class="footer-copy">&copy; rspective 2018</div>
+				</div>
 			</div>
 		</div>
 	</div>

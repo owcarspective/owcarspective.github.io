@@ -1,0 +1,98 @@
+/* mniejsze okno (tablet?) */
+
+/* chowanie nawigacji */
+@media only screen and (max-width: 906px)
+{
+	/*to dziala i jest important */
+	.nav-menu a
+	{
+		
+		display:none;
+	}
+	
+	.nav-menu a.nav-dropicon
+	{
+		display:block;
+		position:absolute;
+		right:30px;
+		top:25px;
+	}
+	
+	.footer-grid
+	{
+		display:block;
+	}
+	
+	.footer img
+	{
+		width:auto;
+	}
+	
+	.f11, .f12, .f13, .f14, .f15, .f21, .f22
+	{
+		margin-bottom:30px;
+	}
+	/* dotąd kurwa */
+	
+	.nav-menu.dropdown
+	{
+		float:none;
+	}
+	
+	.nav-menu.dropdown a
+	{
+		text-align:center;
+		display:block;
+	}
+	
+	.nav-menu.dropdown .nav-button-login
+	{
+		margin-bottom:10px;
+	}
+}
+
+
+/* male urzadzenia */
+@media only screen and (max-width: 680px)
+{
+	.section, .footer, .blog-author, .blog-date
+	{
+		font-size:11px;
+	}
+	
+	.section h3
+	{
+		font-size:18px;
+	}
+	
+	.blog-header h2
+	{
+		font-size:28px;
+	}
+	
+	.blog-header .twitter
+	{
+		font-size:9px;
+		width:80px;
+	}
+	
+	.getstarted-header h1
+	{
+		font-size:30px;
+	}
+	
+	.getstarted-header p
+	{
+		font-size:11px;
+	}
+	
+	.input-email
+	{
+		font-size:11px;
+	}
+	
+	.input-submit
+	{
+		font-size:9px;
+	}
+}
